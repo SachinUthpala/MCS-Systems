@@ -570,3 +570,24 @@ h6,
   object-fit: contain;
   mix-blend-mode: multiply;
 }
+
+/* oher */
+ .spinner-wrapper {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .atm-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.8rem;
+  }
+
+  #spinner.fade-out {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
