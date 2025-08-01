@@ -7,7 +7,7 @@
         if ($('#spinner').length > 0) {
             $('#spinner').removeClass('show');
         }
-    }, 1000); // Increased to 1000ms = 1 second
+    }, 1200); // Increased to 1000ms = 1 second
 };
 spinner();
     
